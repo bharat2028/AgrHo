@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Container Styling */
+  .s9g3p-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #E6E9EF;
+    padding-top: 20px;
+  }
+  
+  /* Logo Styling */
+  .l9g8o {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .logo-img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    margin-right: 10px; /* Space between logo and "AgrHo" text */
+  }
+  
+  .a8g6r {
+    color: #000; /* Black color for 'Agr' */
+  }
+  
+  .h5o2 {
+    color: #56AB2F; /* Green color for 'Ho' */
+  }
+  
+  /* Form Styling */
+  .s3g6p-form {
+    width: 100%;
+    max-width: 500px; /* Increased width */
+    background: #ffffff;
+    padding: 30px; /* Reduced padding for smaller height */
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .s3g6p-form h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Input Group Styling */
+  .i7n2p-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .i7n2p-group label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .i7n2p-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    background: #F5F5F5;
+  }
+  
+  .i7n2p-group input:focus {
+    border-color: #56AB2F;
+    outline: none;
+    background: #FFF;
+  }
+  
+  /* Button Styling */
+  .s9g8p-button {
+    padding: 12px;
+    background-color: #56AB2F;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+  }
+  
+  .s9g8p-button:hover {
+    background-color: #A8E063;
+    transform: translateY(-2px);
+  }
+  
+  /* Login Text Styling */
+  .l8n3g-text {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .l8n3g-text a {
+    color: #56AB2F;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .l8n3g-text a:hover {
+    text-decoration: underline;
+  }
+  

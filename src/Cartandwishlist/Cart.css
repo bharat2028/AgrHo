@@ -1,0 +1,306 @@
+/* src/styles/LandingPage.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .c0nt4in3r {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .ho-part
+  {
+    color: white;
+  }
+  /* Navbar styling */
+.n4vb4r {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #56AB2F; /* Green background */
+  padding: 20px 40px;
+  font-weight: bold;
+}
+
+/* Logo section */
+.l0g0-s3ct10n {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #000; /* Black color for the Agr part */
+  flex: 1;
+}
+
+/* Navbar links */
+.n4v-l1nks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 300px;
+  margin-left: 20px; /* Adjust margin to space links */
+}
+
+.n4v-l1nks li a {
+  text-decoration: none;
+  color: #000; /* Bold black for link text */
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+.n4v-l1nks li a:hover {
+  color: #FFFFFF; /* White color on hover */
+}
+
+/* Icon section with outlined circles */
+.icon-s3ct10n {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+  
+  /* Icon section with outlined circles */
+  .icon-s3ct10n {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .icon-wrapper {
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .icon {
+    color: #000;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .icon-wrapper:hover {
+    background-color: #FFFFFF;
+    color: #56AB2F;
+  }
+
+  .brand-title {
+    font-size: 2rem;                /* Large font size for emphasis */
+    font-weight: bold;              /* Bold font weight */                /* Green color matching the theme */
+    /* Center alignment */
+    /* Uppercase letters */
+    letter-spacing: 2px;            /* Increased spacing between letters */
+                   /* Vertical margin for spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Consistent font family */ /* Smooth scaling effect on hover */
+}
+
+
+  
+
+/*========================================*/
+.course-grid1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    padding: 20px; /* Padding around the grid */
+}
+
+.course-card1 {
+    border: 1px solid #ccc; /* Light border around cards */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Prevent content overflow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+}
+
+.course-card1:hover {
+    transform: scale(1.02); /* Slightly enlarge card on hover */
+}
+
+.course-image1 {
+    width: 100%; /* Full width to fit the card */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.course-details {
+    padding: 10px; /* Padding for details section */
+}
+
+.course-price {
+    font-weight: bold; /* Bold price text */
+    color: #56AB2F; /* Green price color */
+}
+
+.course-buttons {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 10px; /* Margin above buttons */
+}
+
+.add-to-cart, .add-to-wishlist {
+    background-color: #56AB2F; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.add-to-cart:hover, .add-to-wishlist:hover {
+    background-color: #3d923b; /* Darker green on hover */
+}
+
+.quantity-section {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.quantity-section label {
+  margin-right: 5px;
+}
+
+.quantity-section input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.place-order {
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: block;
+  border-radius: 25px;
+}
+
+.place-order:hover {
+  background-color: darkgreen;
+}
+
+
+
+.coupon-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 20%;
+  margin-left: 40%;
+  background-color: rgb(253, 16, 16);
+  color: black;
+}
+
+
+.summary-section {
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.summary-section h3 {
+  margin-bottom: 1rem;
+}
+
+.summary-section p {
+  margin: 0.5rem 0;
+}
+
+.summary-section h4 {
+  margin-top: 1rem;
+  color: #27ae60;
+}
+
+
+
+.payment-section {
+  margin: 2rem; /* Margin around the section */
+  padding: 1.5rem; /* Increased padding for better spacing */
+  border: 1px solid #ccc; /* Light border for separation */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.payment-section h3 {
+  margin-bottom: 1.5rem; /* Space below the heading */
+  font-size: 1.5rem; /* Larger font size for emphasis */
+  color: #333; /* Darker text color for better readability */
+}
+
+.payment-section label {
+  display: block; /* Block display for labels */
+  margin: 0.5rem 0; /* Margin for spacing between options */
+  font-size: 1rem; /* Font size for readability */
+  color: #555; /* Slightly lighter color */
+}
+
+.payment-section input[type="radio"] {
+  margin-right: 0.5rem; /* Space between radio button and label */
+}
+
+.payment-section p {
+  margin-top: 1rem; /* Space above selected payment method text */
+  font-size: 1rem; /* Consistent font size */
+  color: #27ae60; /* Green color for selected payment method */
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+.coupon-button {
+  margin-top: 1.5rem; /* Space above the coupon button */
+  padding: 0.75rem 1.5rem; /* Increased padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  background-color: rgb(253, 16, 16); /* Red background */
+  color: white; /* White text */
+  font-size: 1rem; /* Font size for clarity */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.coupon-button:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+.place-order {
+  margin-top: 1.5rem; /* Space above the place order button */
+  padding: 0.75rem 1.5rem; /* Increased padding */
+  background-color: #56AB2F; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size for clarity */
+  border-radius: 25px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.place-order:hover {
+  background-color: #3d923b; /* Darker green on hover */
+}
+
+

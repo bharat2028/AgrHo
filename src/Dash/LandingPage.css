@@ -1,0 +1,243 @@
+/* Main container styling */
+.c0nt4in3r {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar styling */
+.n4vb4r {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #56AB2F;
+  padding: 20px 40px;
+  font-weight: bold;
+}
+
+/* Logo section */
+.l0g0-s3ct10n {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #000;
+  flex: 1;
+}
+
+/* Navbar links */
+.n4v-l1nks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.n4v-l1nks li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+.n4v-l1nks li a:hover {
+  color: #FFFFFF;
+}
+
+/* Search item */
+.search-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+
+.search-input {
+  padding: 10px 40px 10px 20px;
+  border: 2px solid #56AB2F;
+  border-radius: 25px;
+  width: 200px;
+  font-size: 1rem;
+  color: #333;
+  background-color: white;
+  transition: all 0.3s ease;
+  box-shadow: green;
+}
+
+.search-input:hover,
+.search-input:focus {
+  width: 240px;
+  border-color: #3d923b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #f9f9f9; /* Slightly lighter background */
+}
+
+.search-input::placeholder {
+  color: #777;
+  opacity: 0.8;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  color: #56AB2F;
+  font-size: 1.3rem;
+  pointer-events: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.search-item:hover .search-icon {
+  transform: scale(1.1);
+  color: #3d923b; /* Darker green on hover */
+}
+
+
+/* Icon section */
+.icon-s3ct10n {
+  display: flex;
+  gap: 20px;
+}
+
+/* Icon styling */
+.icon-wrapper {
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.icon {
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.icon-wrapper:hover {
+  background-color: #FFFFFF;
+  color: #56AB2F;
+}
+
+/* Content and carousel section */
+.content-carousel-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+/* Welcome text styling */
+/* Welcome text styling */
+.welcome-text {
+  max-width: 100%;
+  text-align: left;
+  padding: 20px;
+  line-height: 1.3;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif; /* Use a modern sans-serif font */
+}
+
+.welcome-text h1 {
+  font-size: 2.8rem;
+  font-weight: 800; /* Increase font weight */
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.welcome-text .welcome-part {
+  color: #000; /* Black color for "Welcome" */
+  margin-right: 8px;
+}
+
+.welcome-text .agrho-part {
+  color: #56AB2F; /* Green color for "AgrHo" */
+}
+
+/* Subtitle text styling */
+.welcome-text p {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-top: 8px;
+  font-style: italic;
+  max-width: 90%;
+}
+
+/* Decorative underline */
+.welcome-text h1::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 4px;
+  /* Green underline */
+  margin-top: 5px;
+  border-radius: 2px;
+}
+
+
+/* Carousel container */
+.carousel-c0nt4in3r {
+  width: 600px;
+}
+
+.carousel .slide img {
+  border-radius: 10px;
+  height: 300px;
+  
+}
+/*=========================================*/
+.course-grid1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between cards */
+  padding: 20px; /* Padding around the grid */
+}
+
+.course-card1 {
+  border: 1px solid #ccc; /* Light border around cards */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Prevent content overflow */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s; /* Smooth scaling on hover */
+}
+
+.course-card1:hover {
+  transform: scale(1.02); /* Slightly enlarge card on hover */
+}
+
+.course-image1 {
+  width: 100%; /* Full width to fit the card */
+  height: 200px; /* Fixed height for uniformity */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.course-details {
+  padding: 10px; /* Padding for details section */
+  cursor: pointer;
+}
+
+.course-price {
+  font-weight: bold; /* Bold price text */
+  color: #56AB2F; /* Green price color */
+}
+
+.course-buttons {
+  display: flex;
+  justify-content: space-between; /* Space between buttons */
+  margin-top: 10px; /* Margin above buttons */
+}
+
+.add-to-cart, .add-to-wishlist {
+  background-color: #56AB2F; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.add-to-cart:hover, .add-to-wishlist:hover {
+  background-color: #3d923b; /* Darker green on hover */
+}

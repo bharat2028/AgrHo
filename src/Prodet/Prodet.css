@@ -1,0 +1,227 @@
+/* Main container styling */
+.c0nt4in3r {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Navbar styling */
+  .n4vb4r {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #56AB2F;
+    padding: 20px 40px;
+    font-weight: bold;
+  }
+  
+  /* Logo section */
+  .l0g0-s3ct10n {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
+    flex: 1;
+  }
+  
+  /* Navbar links */
+  .n4v-l1nks {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .n4v-l1nks li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+    transition: color 0.3s ease;
+  }
+  
+  .n4v-l1nks li a:hover {
+    color: #FFFFFF;
+  }
+  
+  /* Search item */
+  .search-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+  
+  }
+  
+  .search-input {
+    padding: 10px 40px 10px 20px;
+    border: 2px solid #56AB2F;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 1rem;
+    color: #333;
+    background-color: white;
+    transition: all 0.3s ease;
+    box-shadow: green;
+  }
+  
+  .search-input:hover,
+  .search-input:focus {
+    width: 240px;
+    border-color: #3d923b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    background-color: #f9f9f9; /* Slightly lighter background */
+  }
+  
+  .search-input::placeholder {
+    color: #777;
+    opacity: 0.8;
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 15px;
+    color: #56AB2F;
+    font-size: 1.3rem;
+    pointer-events: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .search-item:hover .search-icon {
+    transform: scale(1.1);
+    color: #3d923b; /* Darker green on hover */
+  }
+  
+  
+  /* Icon section */
+  .icon-s3ct10n {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Icon styling */
+  .icon-wrapper {
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .icon {
+    color: #000;
+    font-size: 1.2rem;
+  }
+  
+  .icon-wrapper:hover {
+    background-color: #FFFFFF;
+    color: #56AB2F;
+  }
+
+
+
+  /*==================================*/
+  .product-details-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .product-image-section {
+    flex: 1;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-info-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .product-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .product-price, .product-seller, .product-delivery {
+    font-size: 1.2rem;
+  }
+  
+  .coupon-button, .add-to-cart-button, .wishlist-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .coupon-button {
+    background-color: #f1c40f;
+    color: #fff;
+  }
+  
+  .add-to-cart-button {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  
+  .wishlist-button {
+    background-color: #f13521;
+    color: #fff;
+    margin-left: 1rem;
+  }
+   .wishlist-button:hover {
+    background-color: red; /* Darker green on hover */
+  }
+  .add-to-cart-button:hover
+  {
+    background-color: green;
+  }
+
+
+
+  .course-grid1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    padding: 20px; /* Padding around the grid */
+  }
+  
+  .course-card1 {
+    border: 1px solid #ccc; /* Light border around cards */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Prevent content overflow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+  }
+  
+  .course-card1:hover {
+    transform: scale(1.02); /* Slightly enlarge card on hover */
+  }
+  
+  .course-image1 {
+    width: 100%; /* Full width to fit the card */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .course-details {
+    padding: 10px; /* Padding for details section */
+  }
+  
+  .course-price {
+    font-weight: bold; /* Bold price text */
+    color: #56AB2F; /* Green price color */
+  }
+  
+  .course-buttons {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 10px; /* Margin above buttons */
+  }

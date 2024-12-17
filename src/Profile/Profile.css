@@ -1,0 +1,201 @@
+.profile-container {
+    max-width: 900px;
+    margin-left: 200px;
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .order-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  
+  .toggle-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #56AB2F;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-button:hover {
+    background-color: #469123;
+  }
+  
+  .delivery-date {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .log {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d9534f; /* Red color for a warning/logout */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .log:hover {
+    background-color: #c9302c; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  .log:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+    background-color: #ac2925; /* Even darker red on click */
+  }
+  
+  /*==========================================================*/
+  /* src/styles/LandingPage.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .c0nt4in3r {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .ho-part
+  {
+    color: white;
+  }
+  /* Navbar styling */
+.n4vb4r {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #56AB2F; /* Green background */
+  padding: 20px 40px;
+  font-weight: bold;
+}
+
+/* Logo section */
+.l0g0-s3ct10n {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #000; /* Black color for the Agr part */
+  flex: 1;
+}
+
+/* Navbar links */
+.n4v-l1nks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 300px;
+  margin-left: 20px; /* Adjust margin to space links */
+}
+
+.n4v-l1nks li a {
+  text-decoration: none;
+  color: #000; /* Bold black for link text */
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+.n4v-l1nks li a:hover {
+  color: #FFFFFF; /* White color on hover */
+}
+
+/* Icon section with outlined circles */
+.icon-s3ct10n {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+  
+  /* Icon section with outlined circles */
+  .icon-s3ct10n {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .icon-wrapper {
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .icon {
+    color: #000;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .icon-wrapper:hover {
+    background-color: #FFFFFF;
+    color: #56AB2F;
+  }
+
+  .brand-title {
+    font-size: 2rem;                /* Large font size for emphasis */
+    font-weight: bold;              /* Bold font weight */                /* Green color matching the theme */
+    /* Center alignment */
+    /* Uppercase letters */
+    letter-spacing: 2px;            /* Increased spacing between letters */
+                   /* Vertical margin for spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Consistent font family */ /* Smooth scaling effect on hover */
+}
+
+
+  
